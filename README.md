@@ -12,4 +12,4 @@ A [SheepIt Render Farm](https://www.sheepit-renderfarm.com/) image for Docker.
 | cpu           | Number of CPU cores to use                                                     | all     |
 
 ## Command (Docker run)
-`docker run -d --name "SheepIt" -e user_name=<your username> -e user_password=<your key> -e cpu=<number of cores>`
+`docker run -d --name "SheepIt" -e user_name=<your username> -e user_password=<your key> -e cpu=<number of cores> rbxii3/docker-sheepit:latest`
