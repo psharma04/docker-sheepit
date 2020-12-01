@@ -1,5 +1,6 @@
 # docker-sheepit
-A [SheepIt Render Farm](https://www.sheepit-renderfarm.com/) image for Docker. 
+A [SheepIt Render Farm](https://www.sheepit-renderfarm.com/) image for Docker. Based on [adoptopenjdk/openjdk11-openj9:alpine-slim](https://hub.docker.com/r/adoptopenjdk/openjdk11-openj9). Uses OpenJ9 and OpenJDK for Java.
+
 
 ## Caveats
 - GPU rendering is currently not supported
