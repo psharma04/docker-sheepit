@@ -5,7 +5,7 @@ RUN mkdir /store
 ADD runfile /store/runfile
 
 # Install cURL and the full GREP package, then set permissions on the runfile
-RUN apk update && apk --no-cache add curl grep && chmod +x /store/runfile
+RUN apk update && apk --no-cache add curl grep bash && chmod +x /store/runfile
 
 # Set workdir
 WORKDIR /store
